@@ -35,7 +35,7 @@ const Universities = {
 };
 
 const getAttendancePercentage = (attendance, group) => {
-  const startDate = !group || group === '1' ? '2025-05-01' : '2025-05-01';
+  const startDate = !group || group === '1' ? '2025-05-05' : '2025-05-05';
 
   const endDate = new Date();
 
