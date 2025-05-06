@@ -11,9 +11,9 @@ import {
   PanelHideRightSwitch,
   PanelHideSwitch,
   TimetableBtnIcon,
-} from './MySSWPanel.styled';
+} from './MyAHNSPanelstyled';
 
-export const MySSWPanel = ({
+export const MyAHNSPanel = ({
   user,
   language,
   timetable,
@@ -121,11 +121,11 @@ export const MySSWPanel = ({
               </APPanelBtn>
             )}
             {/* {(user.mail === 'dev@mail.com' ||
-              user.mail === 'teacher2535@ssw.pl') && (
+              user.mail === 'teacher2535@ahns.pl') && (
               <APPanelBtn
                 onClick={() =>
                   window.open(
-                    'https://academy.ap.education/streams/ssw-admin-panel'
+                    'https://academy.ap.education/streams/ahns-admin-panel'
                   )
                 }
               >

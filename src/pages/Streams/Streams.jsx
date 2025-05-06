@@ -5,7 +5,7 @@ import { Loader } from 'components/SharedLayout/Loaders/Loader';
 import { LoaderWrapper } from 'components/SharedLayout/Loaders/Loader.styled';
 import { Formik } from 'formik';
 import { nanoid } from 'nanoid';
-import { LoginErrorNote } from 'pages/MySSW/MySSWPanel/MySSWPanel.styled';
+import { LoginErrorNote } from 'pages/MyAHNS/MyAHNSPanel/MyAHNSPanelstyled';
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import * as yup from 'yup';

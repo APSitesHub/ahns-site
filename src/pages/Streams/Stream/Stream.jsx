@@ -52,7 +52,7 @@ const Stream = () => {
     .toLowerCase()}`;
 
   useEffect(() => {
-    document.title = `Lesson Online | SSW`;
+    document.title = `Lesson Online | AHNS`;
 
     socketRef.current = io('https://ap-chat-server.onrender.com/');
 
